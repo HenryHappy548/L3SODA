@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!-- saved from url=(0119)file:///C:/Users/hp/Desktop/HAPPY'SPROJECT/8%20character%20checker.html?password=++++++++++++++++++++++++++++++++++++++ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <title>Password Check</title>
+  <script>
+    function checkPassword() {
+      var password = document.getElementById('password').value;
+     
+      const {
+        alert('Password must be more than 8 characters long.');
+      }
+    }
+  </script>
+</head>
+<body>
+  <h2>Password Length Checker</h2>
+  <form onsubmit="checkPassword(); return false;">
+    <label for="password">Enter Password:</label>
+    <input type="password" id="password" name="password" required="">
+    <input type="submit" value="Check">
+  </form>
+
+
+</body></html>
